@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulas</title>
+</head>
+<body>
+    <!-- aula 3 - títulos -->
+    <h1>Este é um cabeçalho</h1> 
+    <h2>Este é um subcabeçalho</h2> 
+    <h3>Este é um subcabeçalho</h3> 
+    <h4>Este é um subcabeçalho</h4> 
+    <h5>Este é um subcabeçalho</h5> 
+    <h6>Este é um subcabeçalho</h6> 
+    <br>
+    
+    
+    <!-- aula 4 - parágrafos -->
+    <p>Desenvolvimento WEB</p>
+    <p>HTML</p>
+
+    <!-- exercício -->
+    <h1>Ibovespa perde marca dos 100 mil pontos com fiscal e temor de recessão</h1>
+    <p>Bolsas internacionais recuam em meio a preocupações de alta de juros e possíveis consequências para a economia global</p>
+    <p>Ibovespa hoje: o principal índice da bolsa brasileira recua 
+        nesta quarta-feira, 29, acompanhando o cenário misto nas bolsas internacionais. No exterior, investidores ficam cautelosos 
+        com a ameaça de recessão, com as bolsas europeias operando em queda e os índices americanos perto da estabilidade. </p>
+    <br>
+
+
+    <!-- aula 5 - formatação de texto -->
+    <p>Texto em negrtio com <b>bold</b></p>
+    <p>Texto em itálico com <i>italic</i></p>
+    <p>Texto <sup>sobrescrito</sup> e <sub>subscrito</sub></p>
+    <p>Texto <ins>inserido (sublinhado)</ins> e <del>excluído</del></p> 
+    <p>Texto <small>pequeno</small> e <mark>destacado</mark></p>
+
+    <!-- exercício -->
+    <p><mark>Olá mundo!</mark></p>
+    <p>Eu estou <ins>aprendendo</ins> a <b>programar</b> em HTML</p>
+    <p>E <i>este exercício prova que estou avançando!</i></p>
+    <br>
+
+
+    <!-- aula 6 - links -->
+    <h1>Aprenda a programar na <a href="https://codiacademy.com/" title="Aprenda a programar">Codi Academy</a></h1>
+
+    <!-- exercício -->
+    <h1><a href="exercicio6.html" title="Nome do usuário">Clique aqui para acessar</a></h1>
+    <br>
+
+    <!-- aula 7 - imagens -->
+    <img src="/images/logo.png" alt="imagem logo" width="300" height="300">
+    
+    <!-- exercício -->
+    <img src="https://logodownload.org/wp-content/uploads/2014/04/coca-cola-logo-0-768x768.png" alt="coca-cola" width="400" height="300">
+    <br>
+
+    <!-- aula 8 - listas -->
+    <h1>Lista não ordenada (unordered list)</h1>
+    <ul>
+        <li>Dormir</li>
+        <li>Alimentar</li>
+        <li>Aprender HTML</li>
+    </ul>
+
+    <h1>Lista ordenada (ordered list)</h1>
+    <ol>
+        <li>Dormir</li>
+        <li>Alimentar</li>
+        <li>Aprender HTML</li>
+    </ol>
+
+    <!-- exercicio -->
+    <h1>Comprar</h1>
+    <ul>
+        <li>1 Arroz</li>
+        <li>12 Ovos</li>
+        <li>1 Macarrão</li>
+        <li>10 Pães</li>
+        <li>1 Presunto</li>
+    </ul>
+    <br>
+
+
+    <!-- AULA 9 - formulários -->
+    <h1>Formulário</h1>
+    <form>
+        <div> Nome: <input type="text" required></div>
+        <div> Idade: <input type="number" required> </div>
+        
+        <!-- caixa de seleção -->
+        <div>
+            <input type="checkbox" id="inscrito" checked>
+            <label for="inscrito">Está inscrito ?</label>
+        </div>
+
+        <div>
+            <textarea>Observações: </textarea>
+        </div>
+
+        <div> <input type="submit" value="Enviar"> </div>
+    </form>
+
+    <!-- exercício -->
+    <p><b>Cadastro</b></p>
+    <form>
+        <div>Nome: <input type="text" required></div>
+        <div>Idade: <input type="text" required></div>
+        <div>E-mail: <input type="email" required></div>
+        <div> 
+            <input type="checkbox" id="inscrito" checked>
+            <label for="inscrito">Estudante</label>
+        <div>
+            <input type="checkbox" id="inscrito">
+            <label for="inscrito">Professor</label>
+        </div>
+        </div>
+        <div>Senha: <input type="password" required></div>
+        <div>Cidade: <input type="text" required></div>
+        <div><input type="submit" value="Cadastrar"></div>
+    </form>
+
+    <!-- AULA 10 - parte 2 -->
+    <h1>Formulário parte 2</h1>
+    <form>
+        <div>Nome: <input type="text" required></div>
+        <div>Idade: <input type="text" required></div>
+        <div> 
+            <select>
+                <option >Com experiênica</option>
+                <option selected>Sem experiênica</option>
+            </select>
+        </div>
+        <div>Estado:
+            <select>
+                <option>MG</option>
+                <option>SP</option>
+                <option>RJ</option>
+                <option>RS</option>
+            </select>
+        </div>
+        <div><input type="submit" value="Cadastrar"></div>
+    </form>
+    <br>
+
+
+    <!-- AULA 11 - tabelas -->
+    <h1>Tabela</h1>
+    <table border="1">
+        <!-- linha da tabela -->
+        <tr>
+            <!-- cabeçalhos -->
+            <th>Segunda</th>
+            <th>Quarta</th>
+            <th>Sexta</th>
+        </tr>
+        <tr>
+            <!-- dados da tabela -->
+            <td>14h as 16h</td>
+            <td>20h as 22h</td>
+            <td>12h as 16h</td>
+        </tr>
+    </table>    
+    
+    <!-- exercício -->
+    <p><a href="aulatabela.html">Receitas de café</a></p>
+    <br>
+
+
+    <!-- AULA 12 - aúdio -->
+    <h1>Áudio</h1>
+    <audio controls src="musica.mp3"> Áudio não carregado</audio>
+    <br>
+
+
+    <!-- AULA 13 - Vídeo -->
+    <h1>Vídeo</h1>
+    <video src="/video/video.mp4" controls width="1280" height="720">Vídeo não carregado</video>
+    <br>
+
+
+    <!-- AULA 13 - Tags -->
+    <input type="text" value="input1">
+    <input type="text" value="input2">
+    <div><input type="text" value="input3"></div>
+    <div><input type="text" value="input4"></div>
+
+    <p>Este texto tem um <span style="background: #09a325; border-radius: 5px; padding: 5px;">trecho em destaque</span></p>
+
+    <nav>
+        <ul>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+
+</body>
+</html>
